@@ -15,18 +15,19 @@ export interface CourseModel {
 export const weekTitle = ['一', '二', '三', '四', '五', '六', '日']
 
 export const courseTimeList = [
-  { s: '08:00', e: '08:50' }, { s: '08:55', e: '09:45' },
-  { s: '10:15', e: '11:05' }, { s: '11:10', e: '12:00' },
-  { s: '14:00', e: '14:50' }, { s: '14:55', e: '15:45' },
-  { s: '16:15', e: '17:05' }, { s: '17:10', e: '18:00' },
-  { s: '19:00', e: '19:50' }, { s: '19:55', e: '20:45' },
+  { s: '08:15', e: '09:00' }, { s: '09:10', e: '09:55' },
+  { s: '10:10', e: '10:55' }, { s: '11:05', e: '11:50' },
+  { s: '14:30', e: '15:15' }, { s: '15:25', e: '16:10' },
+  { s: '16:20', e: '17:05' }, { s: '17:15', e: '18:00' },
+  { s: '18:10', e: '18:55' }, { s: '19:30', e: '20:15' },
+ { s: '20:25', e: '21:10' }, { s: '21:20', e: '22:05' },
 ]
 
 const colorMap = new Map<string, string>()
 
 // @unocss-include
 export const colorList = [
-  ['#FFDC72', '#CE7CF4', '#FF7171', '#66CC99', '#FF9966', '#66CCCC', '#6699CC', '#99CC99', '#669966', '#66CCFF', '#99CC66', '#FF9999', '#81CC74'],
+  ['radial-gradient(circle farthest-corner at 50% 0%,#ffe000 0,#ffa000 100%)', 'radial-gradient(circle farthest-corner at 50% 0%,#dcb6ee 0,#ce7cf4 100%)', 'radial-gradient(circle farthest-corner at 50% 0%,#ff9600 0,#ff5349 100%)', 'radial-gradient(circle at 50% 0%, rgb(51 229 213) 0px, #06aa9b 100%)', 'linear-gradient(90deg,#ff953f,#ffb449)', 'radial-gradient(circle at 50% 0%, rgb(246 197 197) 0px, rgb(255 153 153) 100%)', 'radial-gradient(circle farthest-corner at 50% 0%,#76baff 0,#1f8bff 100%)', 'radial-gradient(circle at 50% 0%, rgb(244 107 154) 0px, #E91E63 100%)', 'radial-gradient(circle at 50% 0%, rgb(195 152 136) 0px, #795548 100%)', 'radial-gradient(circle at 50% 0%, rgb(97 112 197) 0px, #3F51B5 100%)', 'radial-gradient(circle farthest-corner at 50% 0%,#b9df64 0,#61be33 100%)', 'radial-gradient(circle at 50% 0%, rgb(218 226 138) 0px, #CDDC39 100%)', 'radial-gradient(circle at 50% 0%, rgb(227 219 219) 0px, #9E9E9E 100%)'],
   ['#99CCFF', '#FFCC99', '#CCCCFF', '#99CCCC', '#A1D699', '#7397db', '#ff9983', '#87D7EB', '#99CC99'],
 ]
 
