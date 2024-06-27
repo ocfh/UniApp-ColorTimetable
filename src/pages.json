@@ -10,9 +10,9 @@
     "navigationStyle": "custom"
   },
   "pages": [
-    { "path": "pages/splash/splash" },
-    { "path": "pages/index/index" },
-    { "path": "pages/detail/detail" }
+{ "path": "pages/index/index" },
+{ "path": "pages/index/courses" },
+{ "path": "pages/day/courses" }
   ],
   "easycom": {
     "autoscan": true,
