@@ -38,37 +38,40 @@ function closeActionSheet() {
     <div
       class="bg-base w-full min-h-10 z-100 fixed" transition="all duration-300 ease-in-out"
       :class="showActionSheet && courseList?.length ? 'bottom-0' : '-bottom-full'"
+	  style="border-radius:16px 16px 0 0;"
     >
       <div class="py-6" flex="~ col gap6">
-        <div v-if="courseList?.length" class="font-medium text-xl px-4">
-          {{ courseTime }}
-        </div>
         <template v-for="(courseItem, index) of courseList" :key="index">
           <div class="px-4" flex="~ col gap-2" @click="navigateToDetail(courseItem)">
             <div class="flex mb-1 w-full gap-2 justify-start items-center relative">
-              <div class="rounded-full h-5 w-1 inline-block" :style="`background-color:${courseItem.color}`" />
-              <div class="font-medium text-lg">
+              <div class="rounded-full h-5 w-1 inline-block" :style="`background:${courseItem.color}`" />
+              <div class="font-medium text-lg" style="font-weight: bold;font-size:1.25rem;">
                 {{ courseItem.title }}
               </div>
-              <div
-                class="text-xl top-0 right-4 bottom-0 z-20 absolute" :class="index ? 'i-carbon-up-to-top' : ''"
-                @click.stop="courseStore.setCourseItemTop(courseItem)"
-              />
             </div>
-            <div class="flex gap-1 justify-start items-center">
-              <div class="i-carbon-location" />
-              {{ courseItem.location }}
+			<div class="flex gap-1 justify-start items-center">
+			  <div class="i-carbon-location" />
+			  {{ courseItem.location }}
+			</div>
+			<div class="flex gap-1 justify-start items-center">
+              <div class="i-carbon-light" />
+             教师 {{ courseItem.teacher }}
             </div>
             <div class="flex gap-1 justify-start items-center">
               <div class="i-carbon-alarm" />
               {{ getCourseTime(courseItem) }}
             </div>
-          </div>
+			<div class="flex gap-1 justify-start items-center">
+			      <div class="i-carbon-up-to-top" />
+			周期 {{ courseItem.weeks[0] }}-{{ courseItem.weeks[courseItem.weeks.length - 1] }}周
+			    </div>
+			</div>
+			
         </template>
       </div>
       <div
-        class="flex pb-safe h-12" text="center lg dark:!white" b="t-4 gray-200 dark:op-20" justify-center
-        items-center hover-class="bg-gray-200 bg-opacity-50" :hover-stay-time="150" @click="closeActionSheet"
+        class="flex pb-safe h-12" text="center lg dark:!white" b="t-4 gray-200" justify-center
+        items-center hover-class="bg-gray-200 bg-opacity-50" :hover-stay-time="150" @click="closeActionSheet" style="    border-top: 0px;"
       >
         关闭
       </div>
