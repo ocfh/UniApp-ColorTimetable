@@ -11,6 +11,7 @@
 ## Features
 
 - **Class selection**: Designed a class selection list page with a matching project style.
+- **Weather & Daily quotes**: Added weather API and daily quotes API on the homepage.
 - **Daily course**: View today's or specified date's course schedule in a concise and clear manner based on the schedule.
 - **Weekly course**: View courses for this week and designated weeks, with exquisite switching animation logic.
 - **Color Design**: More exquisite color gradient style, more beautiful rounded design, and simpler text layout.
