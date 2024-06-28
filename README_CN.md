@@ -1,6 +1,5 @@
 # UniApp-ColorTimetable-Modified
 ### 📅 Using Uni-app for modified of ColorTimetable full stack H5 project
-
 <br>
 <p align='center'>
   <img src="screenshot/1.png" height="350"></img>
