@@ -1,5 +1,5 @@
 # Uni-App ColorTimetable Modified
-### 📅 Uni-APP二次开发ColorTimetable的全栈H5项目[English Docs](https://github.com/ByteBlader/UniApp-ColorTimetable-Modified/blob/main/README.md)
+### 📅 Uni-APP二次开发ColorTimetable的全栈H5项目 [English Docs](https://github.com/ByteBlader/UniApp-ColorTimetable-Modified/blob/main/README.md)
 <br>
 <p align='center'>
   <img src="screenshot/1.png" height="350"></img>
