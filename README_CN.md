@@ -34,7 +34,7 @@
    ```
    pnpm run build:h5
    ```
-5. 推荐HBuilder X:
+5. 推荐HBuilder X：
 能够使你的Uni-App项目大幅度缩短开发的时间！
 
 ## 许可证
