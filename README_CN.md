@@ -1,5 +1,6 @@
-# UniApp-ColorTimetable-Modified
-### 📅 Using Uni-app for modified of ColorTimetable full stack H5 project
+# Uni-App ColorTimetable Modified
+### 📅 Uni-APP二次开发ColorTimetable的全栈H5项目
+[English Docs](https://github.com/ByteBlader/UniApp-ColorTimetable-Modified/blob/main/README.md)
 <br>
 <p align='center'>
   <img src="screenshot/1.png" height="350"></img>
@@ -8,69 +9,35 @@
 </p>
 <br>
 
-## 特性
+## Features
 
-- 🗓  可视化周选择、课程删除/置顶、课程详情卡片
+- **班级选择列表**: 设计了一个与整体项目风格相匹配的班级选择列表页面。
+- **日课程表视图**: 新增了一种简洁明了的方式支持查看今天或指定日期的课程表。
+- **周课程表视图**: 支持查看本周或指定周数的课程表并设计了切换的动画逻辑。
+- **重新设计前端**: 更精致的渐变色风格，更美观的圆角设计，更简洁的文本布局。
+- **移除的功能**: 数据需在编译时导入，并且不支持用户自行添加或修改课程。
 
-- ⚡️ [Vue 3](https://github.com/vuejs/vue-next), [Vite 2](https://github.com/vitejs/vite), [pnpm](https://pnpm.js.org/), [ESBuild](https://github.com/evanw/esbuild) - 就是快！
+## Installation
 
-- 🔥 使用 [新的 `<script setup>` 语法](https://github.com/vuejs/rfcs/pull/227)
+1. 克隆仓库：
+   ```
+   git clone https://github.com/ByteBlader/UniApp-ColorTimetable-Modified.git
+   ```
+2. 安装依赖：
+   ```
+   pnpm install
+   ```
+3. 本地调试：
+   ```
+   pnpm run dev:h5
+   ```
+4. 编译项目：
+   ```
+   pnpm run build:h5
+   ```
+5. 推荐HBuilder X:
+能够使你的Uni-App项目大幅度缩短开发的时间！
 
-- 🦾 TypeScript 的类型检查
-
-## 使用
-
-[uni-app 项目支持 vue 3.0 介绍，及升级指南](https://ask.dcloud.net.cn/article/37834)
-
-- 拉取代码
-
-```bash
-git clone https://github.com/zguolee/ColorTimetable.git
-```
-
-- 安装依赖
-  
-```bash
-cd ColorTimetable
-pnpm install
-```
-
-- 运行
-
-```bash
-pnpm run dev:mp-weixin
-```
-
-- 发行
-
-```bash
-pnpm run build:mp-weixin
-```
-
-## Change Log
-
-### Version 2.1.0
-
-#### Features
-
-- Add a page to add and edit course
-
-#### Changed
-
-- **Change course data structure**
-- Change the course card display method
-
-### Version 2.0.0
-
-#### Features
-
-- Update from Vue2 to Vue3
-- Dark theme
-
-### Version 1.x
-
-[ColorTimetable Vue2](https://github.com/zguolee/ColorTimetable/tree/vue2)
-
-## License
-
-[MIT](./LICENSE) License © 2021-PRESENT [Neil](https://github.com/zguolee)
+## 许可证
+本项目基于 [ColorTimetable@Neil](https://github.com/zguolee/ColorTimetable) 二次开发。
+本项目遵循原项目 [MIT](https://github.com/ByteBlader/UniApp-ColorTimetable-Modified/blob/main/LICENSE) 许可协议。
