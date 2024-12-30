@@ -1,5 +1,4 @@
-@ -1,281 +0,0 @@
-export default [
+[
     {
         "title": "语文",
         "location": "教学楼101",

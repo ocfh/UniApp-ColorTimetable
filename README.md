@@ -2,10 +2,10 @@
 ### 📅 Uni-APP二次开发ColorTimetable的全栈多端项目 [English Docs](https://github.com/ocfh/UniApp-ColorTimetable/blob/main/README_EN.md)
 <br>
 <p align='center'>
-  <img src="screenshot/1.png" height="350"></img>
-  <img src="screenshot/2.png" height="350"></img>
-  <img src="screenshot/3.png" height="350"></img>
-  <img src="screenshot/4.png" height="350"></img>
+  <img src="screenshot/1.png" height="200"></img>
+  <img src="screenshot/2.png" height="200"></img>
+  <img src="screenshot/3.png" height="200"></img>
+  <img src="screenshot/4.png" height="200"></img>
 </p>
 <br>
 

@@ -2,10 +2,10 @@
 ### 📅 Using Uni-app for modified of ColorTimetable full stack multi terminal project [中文文档](https://github.com/ocfh/UniApp-ColorTimetable/blob/main/README.md)
 <br>
 <p align='center'>
-  <img src="screenshot/1.png" height="350"></img>
-  <img src="screenshot/2.png" height="350"></img>
-  <img src="screenshot/3.png" height="350"></img>
-  <img src="screenshot/4.png" height="350"></img>
+  <img src="screenshot/1.png" height="200"></img>
+  <img src="screenshot/2.png" height="200"></img>
+  <img src="screenshot/3.png" height="200"></img>
+  <img src="screenshot/4.png" height="200"></img>
 </p>
 <br>
 

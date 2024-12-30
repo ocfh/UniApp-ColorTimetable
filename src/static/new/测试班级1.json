@@ -1,0 +1,92 @@
+[
+    {
+        "title": "物理实验",
+        "location": "实验楼201",
+        "teacher": "王老师",
+        "week": 1,
+        "start": 2,
+        "duration": 3,
+        "weeks": [1, 3, 5, 7, 9, 11, 13, 15, 17]
+    },
+    {
+        "title": "高等数学",
+        "location": "教学楼302",
+        "teacher": "张老师",
+        "week": 2,
+        "start": 1,
+        "duration": 2,
+        "weeks": [2, 4, 6, 8, 10, 12, 14, 16, 18]
+    },
+    {
+        "title": "英语写作",
+        "location": "语言中心403",
+        "teacher": "李老师",
+        "week": 3,
+        "start": 3,
+        "duration": 2,
+        "weeks": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+    },
+    {
+        "title": "计算机网络",
+        "location": "计算机楼501",
+        "teacher": "赵老师",
+        "week": 4,
+        "start": 4,
+        "duration": 2,
+        "weeks": [3, 5, 7, 9, 11, 13, 15, 17]
+    },
+    {
+        "title": "音乐鉴赏",
+        "location": "艺术楼602",
+        "teacher": "刘老师",
+        "week": 5,
+        "start": 5,
+        "duration": 1,
+        "weeks": [2, 4, 6, 8, 10, 12, 14, 16, 18]
+    },
+    {
+        "title": "体育锻炼",
+        "location": "体育馆703",
+        "teacher": "陈老师",
+        "week": 6,
+        "start": 6,
+        "duration": 2,
+        "weeks": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+    },
+    {
+        "title": "心理学导论",
+        "location": "社科楼804",
+        "teacher": "周老师",
+        "week": 7,
+        "start": 7,
+        "duration": 2,
+        "weeks": [1, 3, 5, 7, 9, 11, 13, 15, 17]
+    },
+    {
+        "title": "经济学原理",
+        "location": "经管楼905",
+        "teacher": "吴老师",
+        "week": 8,
+        "start": 8,
+        "duration": 2,
+        "weeks": [2, 4, 6, 8, 10, 12, 14, 16, 18]
+    },
+    {
+        "title": "化学实验",
+        "location": "实验楼1006",
+        "teacher": "郑老师",
+        "week": 9,
+        "start": 9,
+        "duration": 3,
+        "weeks": [1, 3, 5, 7, 9, 11, 13, 15, 17]
+    },
+    {
+        "title": "生物科学",
+        "location": "生物楼1107",
+        "teacher": "孙老师",
+        "week": 10,
+        "start": 10,
+        "duration": 2,
+        "weeks": [2, 4, 6, 8, 10, 12, 14, 16, 18]
+    }
+]
