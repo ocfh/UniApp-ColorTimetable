@@ -1,5 +1,5 @@
-# Uni-App ColorTimetable Modified
-### 📅 Using Uni-app for modified of ColorTimetable full stack H5 project [中文文档](https://github.com/ocfh/UniApp-ColorTimetable/blob/main/README.md)
+# Uni-App ColorTimetable
+### 📅 Using Uni-app for modified of ColorTimetable full stack multi terminal project [中文文档](https://github.com/ocfh/UniApp-ColorTimetable/blob/main/README.md)
 <br>
 <p align='center'>
   <img src="screenshot/1.png" height="350"></img>
